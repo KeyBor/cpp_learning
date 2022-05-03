@@ -41,19 +41,19 @@ Fraction d = f + 4;
 顾名思义，对括号操作符进行重载，模仿函数的行为，完成类似函数的行为
 
 ### 模板主要分为三类：类模板，函数模板和成员模板
-![[pic/Pasted image 20220503195154.png]]
+![img](https://github.com/KeyBor/cpp_learning/blob/master/pic/Pasted%20image%2020220503195154.png)
 成员模板是模板的一部分，但是自己也是模板，虽然我还不知道具体的用途
 其余的模板都比较简单，可能主要为了完成面向对象中up-cast的特性吧，即父类对象可以接受子类对象进行初始化。
 
 ### 模板特化和模板偏特化
-![[pic/Pasted image 20220503195250.png]]
+![img](https://github.com/KeyBor/cpp_learning/blob/master/pic/Pasted%20image%2020220503195250.png)
 模板特化后，注意是用特定类型绑定，所以尖括号内不需要进行泛化的设定
-![[pic/Pasted image 20220503195357.png]]
-![[pic/Pasted image 20220503195426.png]]
+![img](https://github.com/KeyBor/cpp_learning/blob/master/pic/Pasted%20image%2020220503195357.png)
+![img](https://github.com/KeyBor/cpp_learning/blob/master/pic/Pasted%20image%2020220503195426.png)
 
 ### c++11新特性
 #### variadic templates 
-![[pic/Pasted image 20220503195511.png]]
+![img](https://github.com/KeyBor/cpp_learning/blob/master/pic/Pasted%20image%2020220503195511.png)
 递归循环调用解包的过程，需要注意，最后包长度为0时，需要调用无参函数
 
 以上图片来自于：https://zhuanlan.zhihu.com/p/352104978
